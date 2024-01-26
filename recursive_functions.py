@@ -58,7 +58,7 @@ print(result)
 
 def int_factorial(n):
     if n == 0 or n == 1:
-        return  1
+        return
     else:
         return n * int_factorial(n - 1)
     
